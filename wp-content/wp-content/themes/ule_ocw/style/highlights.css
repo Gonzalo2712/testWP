@@ -1,0 +1,162 @@
+/* Posicionamiento del Slider */
+.highlights {
+	width: 850px;
+	height: 220px;
+	position: relative;
+	margin: 10px 0 0 0;
+}
+
+.highlights .wrapper {
+	width: 750px;
+	height: 200px;
+	overflow: auto;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	margin: 0;
+}
+
+.highlights .wrapper ul {
+	width: 32700px;
+	list-style: none;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0 !important;
+	padding: 0;
+	list-style-type: none;
+}
+
+.highlights .wrapper ul li {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 190px;
+	width: 750px !important;
+	list-style-type: none;
+	list-style-image: none !important;
+}
+
+.highlights .arrow {
+}
+
+.highlights .forward {
+}
+
+.highlights .back {
+}
+
+.highlights .thumbNav {
+}
+
+.highlights .thumbNav ul {
+	margin: 0 !important;
+}
+
+.highlights .thumbNav ul li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.highlights .start-stop {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Prevenimos que el contenido se muestre correctamente */
+.highlights .wrapper ul ul {
+	position: static;
+	margin: 0;
+	background: none;
+	overflow: visible;
+	width: auto;
+	border: 0;
+}
+
+.highlights .wrapper ul ul li {
+	float: none;
+	height: auto;
+	width: auto;
+	background: none;
+}
+
+/* Formato gráfico del Slider */
+
+.highlights {
+	background: transparent url('../art/decorative-bar-thin.png') 0 20px no-repeat;
+}
+
+.highlights .wrapper {
+	margin-top: 4px;
+}
+
+.highlights .thumbNav {
+	
+	width: 400px;
+}
+
+.highlights .thumbNav ul li {
+	margin: 0 2px;
+}
+
+.highlights .thumbNav ul li a {
+	text-decoration: none;
+	color: #AAAAAA !important;
+	padding: 0px 5px 2px 5px;
+	background: #EEEEEE;
+	-moz-border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.highlights .thumbNav ul li a.cur {
+	background: #DDDDDD;
+	color: #999999 !important;
+}
+
+.highlights .thumbNav ul li a:hover {
+	background: gray !important;
+	color: white !important;
+}
+
+.highlights .arrow {
+	background: transparent url('../art/highlights-arrows.png') 0 0 no-repeat;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	top: 90px;
+	text-indent: -99999px;
+	cursor: pointer;
+}
+
+.highlights .back {
+	left: 0;
+	background-position: 0 -37px;
+}
+
+.highlights .back:hover {
+	background-position: 0 -264px;
+}
+
+.highlights .forward {
+	right: 0;
+	background-position: -40px -37px;
+}
+
+.highlights .forward:hover {
+	background-position: -40px -264px;
+}
+
+.highlights .start-stop {
+	font-size: .8em;
+	color: silver !important;
+	text-decoration: none;
+}
+
+.highlights .start-stop:hover {
+	color: gray;
+	background: none !important;
+}

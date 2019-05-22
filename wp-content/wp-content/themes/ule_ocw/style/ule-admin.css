@@ -1,0 +1,47 @@
+/* -> Varios */
+div.more-help-link {
+	margin: 0 20px;
+}
+/* <- varios */
+
+/* -> Formulario de búsqueda */
+form#node-admin-content ul {
+	margin: 0;
+	padding: 0;
+}
+
+form#node-admin-content ul li {
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+form#node-admin-content dl {
+	margin: 0;
+	padding: 0;
+}
+/* <- formulario de búsqueda */
+
+/* -> Autocompletado */
+div#autocomplete {
+	background: #DDDDDD;
+}
+
+div#autocomplete ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+div#autocomplete ul li {
+	list-style-image: none;
+	background: #DDDDDD;
+	padding: 2px;
+	margin: 0;
+}
+
+div#autocomplete ul li:hover, div#autocomplete ul li.selected {
+	background: #930000;
+	color: white;
+}
+/* <- autocompletado */

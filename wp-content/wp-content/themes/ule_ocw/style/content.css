@@ -1,0 +1,257 @@
+/**
+ * CSS específico para cierto tipo de contenidos.
+ */
+ 
+/* -> Main page */
+p.readmore {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+p.readmore a {
+	font-size: .9em;
+	text-decoration: none;
+	padding: 1px 6px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+p.readmore a:after {
+	content: " →";
+}
+/* <- main page */
+
+/* -> Misc */
+.fixed-width-50 {
+	width: 50px;
+}
+
+.fixed-width-100 {
+	width: 100px;
+}
+
+.fixed-width-150 {
+	width: 150px;
+}
+
+.fixed-width-200 {
+	width: 200px;
+}
+/* <- misc */
+ 
+/* -> Outstanding */
+div#content p.outstanding {
+	width: 260px;
+	margin: 15px 5px 20px 5px;
+	padding: 6px;
+	border: 1px solid #DDDDDD;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	float: left !important;
+	font-size: 1em;
+	line-height: 1.3em;
+	color: #444444;
+	background: #F0F0F0;
+}
+
+div#content p.outstanding img {
+	float: left;
+	margin: 3px 10px 3px 3px;
+	padding: 0 !important;
+	width: 100px;
+	height: 100px;
+	border: none !important;
+}
+
+div#content p.outstanding.banner {
+	border: none;
+	padding: 0;
+	text-align: center;
+}
+
+div#content p.outstanding.banner img {
+	padding: 0;
+	margin: 0;
+	float: none;
+	width: auto;
+	height: auto;
+}
+
+div#content p.outstanding span {
+	color: #930000;
+	font-size: 1.3em;
+	display: block;
+	margin: 5px 0;
+}
+/* <- outstanding */
+
+/* -> front paragraph red background */
+div#content div.front {
+	background: #CF0000 url('../art/front-background-leon.png') top right no-repeat;
+	color: white;
+	padding: 0 !important;
+	font-size: 1.2em;
+	overflow: auto;
+}
+
+div#content div.front h2 {
+	color: white;
+	font-size: 1.6em;
+	border-bottom: 1px solid white;
+}
+
+div#content div.front p {
+	color: white;
+	margin: 10px;
+	line-height: 1.5em;
+}
+
+div#content div.front hr {
+	border: none;
+	border-top: 1px solid white;
+	color: white;
+	background: white;
+	width: auto;
+	margin: 10px 0;
+}
+
+div#content div.front img {
+	margin: 0 10px 0 0;
+	padding: 0 !important;
+	border: none;
+}
+/* <- front paragraph */
+
+/* -> Clean Tables */
+div#content table.clean {
+	border: none;
+	background: white;
+	padding: 0;
+	margin: 0;
+	border-spacing: 0;
+	font-size: 1em;
+	margin-top: 20px;
+}
+
+div#content table.clean tr, div#contents table.clean th, div#contents table.clean td {
+	vertical-align: top;
+	background: white;
+	border: none;
+	padding: 0;
+}
+
+div#content table.clean td p.outstanding {
+	/* Si el párrafo está dentro de una table, le ponemos otro margin */
+	margin: 5px 14px;
+}
+/* <- clean tables */
+
+/* -> Marked items */
+div#content .marked {
+	background: #E9E4E4;
+}
+
+div#content span.marked {
+	background: yellow;
+}
+/* <- marked items */
+
+
+/* -> Directorio y telefonos */
+div#content table.directory {
+	width: 100%;
+	border: 0;
+}
+.tdselect {
+	vertical-align: top;
+	width: 50%;
+	border: 0;
+}
+/* <- Directorio y telefonos */
+
+/* -> Image Assist */
+.img_assist-button {
+	margin: 8px 22px 8px 0;
+	border: 1px solid #DDDDDD;
+	background: #F1F1F1;
+	padding: 5px;
+}
+
+.img_assist-button .img_assist-link {
+	padding: 0 0 0 20px;
+	font-size: 1.1em;
+	background: url('../art/image_add.png') left center no-repeat;
+	margin: 7px 0;
+}
+/* <- image assist */
+
+/* -> Views */
+div#content div.views-field-title a {
+	text-decoration: none;
+}
+
+div#content div.views-field-body {
+	overflow: auto;
+}
+
+div#content div.views-field-field-valid-from-value, div#contents div.views-field-field-valid-to-value {
+	margin: 8px 0 3px 10px;
+}
+
+div#content div.views-field-field-valid-from-value label, div#contents div.views-field-field-valid-to-value label {
+	color: gray;
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+div#content div.views-field-field-valid-from-value .field-content, div#contents div.views-field-field-valid-to-value .field-content {
+	font-weight: bold;
+}
+
+div#content fieldset.fieldgroup {
+	margin: 0 20px 0 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	line-height: 1.4em;
+}
+
+div#content fieldset.fieldgroup div.field-label {
+	float: left;
+	width: 180px;
+	font-weight: normal;
+	color: #555555;
+	text-align: right;
+}
+
+/* --> Campos adicionales en los listados de las views */
+
+div.view-content {
+}
+
+div.view-content div {
+}
+
+div.view-content label {
+	line-height: 1.4em;
+	margin-left: 20px;
+	width: 180px;
+	display: inline-block;
+	color: #555555;
+	text-align: right;
+	padding-right: 5px;
+}
+
+/* **Añadir aquí los campos que sean 'textarea' con su correspondiente clase** */
+/* Especifico del horario de cursos */
+div.view-content div.views-field-field-timetable-value div {
+	display: inline;
+}
+
+/* <-- campos adicionales */
+
+/* <- views */

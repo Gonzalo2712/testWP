@@ -1,0 +1,137 @@
+/* The header from the front page is different from the other pages */
+div#header {
+	background: transparent url('../art/header-background-front-page.png') top right no-repeat;
+	height: 172px;
+}
+
+div#header h1 {
+	width: 250px;
+	padding-top: 4px;  /* posición correcta en cabecera debido al tamaño del menú */
+}
+
+div#header ul#main-login-menu {
+	margin: 21px 0 0 35px;
+	font-size: 1em;
+	width: 200px;
+	text-align: center;
+}
+
+div#header ul#main-login-menu li {
+	display: inline;
+	padding: 0 8px 0 5px;
+	margin: 0 ;
+	background: url('../art/menu-separator-vertical.png') no-repeat right center;
+}
+
+div#header ul#main-login-menu li:last-child {
+	background: none;
+}
+
+div#header ul#main-login-menu li a {
+	text-decoration: none;
+	color: gray;
+}
+
+div#header ul#main-login-menu li a:hover {
+	text-decoration: underline;
+}
+
+/* -> Sidebar */
+
+div#secondary-sidebar {
+	float: right;
+	width: 240px;
+	margin: 0 30px;
+}
+
+/* --> Main Menu */
+div#main-menu {
+	margin: 10px 70px 20px 20px;
+}
+
+div#main-menu ul {
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+	background: transparent url('../art/menu-button-background.png') left center repeat-x;
+	border: 1px solid #BBBBBB;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+div#main-menu ul li {
+	display: inline;
+	padding: 1px 10px 1px 20px;
+	background: transparent url('../art/item-separator.png') left center no-repeat;
+}
+
+div#main-menu ul li:first-child {
+	background: none;
+	padding-left: 0;
+}
+
+div#main-menu ul li a {
+	text-decoration: none;
+	color: #444444;
+	/*color: #BF0000;*/
+	font-size: 1.2em;
+}
+
+div#main-menu ul li a:hover {
+	color: #DD0000;
+	/*color: #555555;*/
+	background: none;
+}
+
+/* <-- main menu */
+
+/* <- secondary-sidebar */
+
+/* -> Main Content */
+
+div#content {
+}
+
+div#content div#main-content {
+	margin: 0 50px 17px 0;
+}
+
+div#content div.front {
+	width: 845px;
+	height: 390px;
+	margin: 1px;
+	padding: 0;
+	overflow: auto;
+}
+/* <- main content */
+
+div#header ul#main-login-menu li#login {
+	background: url('../art/login.png') left center no-repeat !important;
+	padding-left: 20px;
+}
+
+/* -> Social */
+div#social {
+	text-align: right;
+	margin: 0 50px 0 50px;
+	padding: 1px 1px 5px 1px;
+	background: transparent url('../art/decorative-bar-thin.png') left center no-repeat;
+}
+/* <- social */
+
+/* -> Locale */
+div#secondary-sidebar div.block-locale h2 a {
+	/* para solucionar un problema con el 'locale' en la portada */
+	font-size: 1em;
+	background: none;
+	padding: 0;
+	margin: 0;
+	text-decoration: underline;
+}
+
+div#secondary-sidebar div.block-locale ul li a.active {
+	background: white;
+	color: #930000;
+}
+/* <- locale */
