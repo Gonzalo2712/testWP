@@ -1,0 +1,1457 @@
+@charset "UTF-8";
+/* clase green-jungle en metronic */
+/* clase red-thunderbird en metronic */
+/* color para los tooltip de ayuda */
+/* clase grey-silver en metronic */
+/* Color de fondo del menu de migas */
+/* Color de la miga seleccionada */
+/* Sobreescribimos clases para el texto */
+.text-success {
+    color: #26C281; }
+
+.text-error {
+    color: #D91E18; }
+
+.text-muted {
+    color: #746767; }
+
+
+/* Sobreescribimos clases para los botones */
+.btn-success {
+    background-color: #26C281; }
+
+.btn-danger {
+    background-color: #D91E18; }
+
+/* Application name */
+.app-name {
+    font-size: 30px;
+    font-weight: 500; }
+
+/* CABECERA: FILA DE LOGO, INFO DE USUARIO LOGADO Y MENÃš PRINCIPAL */
+.page-header .page-header-top {
+    margin-top: 5px;
+    padding-bottom: 5px; }
+
+.page-header .page-header-top .page-logo {
+    height: auto;
+    margin: 6px 0 !important;
+}
+
+.page-header .page-header-top .page-logo .logo-default {
+    margin-top: 0; }
+
+div.page-header {
+    height: auto;
+    border-bottom: 3px solid #00560f;
+    /* Logo */
+    /* Nombre de la aplicaciÃ³n */ }
+
+.page-logo {
+    width: 200px !important;
+    z-index: 9999;
+}
+
+div.page-header div.app-info {
+    float: right;
+    color: #BCC2CB;
+    font-size: 18px;
+    padding-top: 14px; }
+
+.help {
+    color: #659BE0;
+    cursor: help; }
+
+/* CABECERA: FILA DE LOGO, INFO DE USUARIO LOGADO Y MENÃš PRINCIPAL CUANDO EL ANCHO ES INFERIOR A 991px */
+@media (max-width: 991px) {
+    div.page-header {
+        /* Nombre de la aplicaciÃ³n */
+        /* Desplegable del menu principal en pantalla pequeÃ±a. Lo recoloco un poco */ }
+    div.page-header div.app-info {
+        float: none !important;
+        color: black;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        padding-top: 0 !important; }
+    div.page-header .page-header-top .menu-toggler {
+        margin-top: 10px; } }
+/* MENÃš DE MIGAS */
+.page-breadcrumb-container {
+    width: 100%;
+    z-index: 950;
+    background-color: #F5F5F5;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; }
+.page-breadcrumb-container ul {
+    padding-top: 3px;
+    padding-bottom: 3px; }
+
+.fixed-breadcrumb {
+    position: fixed !important;
+    top: 51px; }
+
+.fixed-breadcrumb-mobile {
+    position: fixed !important;
+    top: 0; }
+
+/* ELEMENTO GESTIONADO */
+.managed-element {
+    color: #337AB7;
+    padding-top: 3px;
+    padding-bottom: 3px; }
+
+.managed-element-right {
+    float: right; }
+
+.managed-element-left {
+    float: left; }
+
+/* BANDERAS - CAMBIO DE IDIOMA - http://www.phoca.cz/cssflags/ */
+/* ESPAÃ‘A */
+.es {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNTAwIj4NCjxwYXRoIGZpbGw9IiNjNjBiMWUiIGQ9Im0wLDBoNzUwdjUwMGgtNzUweiIvPg0KPHBhdGggZmlsbD0iI2ZmYzQwMCIgZD0ibTAsMTI1aDc1MHYyNTBoLTc1MHoiLz4NCjwvc3ZnPg0K");
+    background-size: 100% 100%;
+    color: transparent !important; }
+
+/* REINO UNIDO */
+.gb {
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNjAgMzAiIGhlaWdodD0iNjAwIj4NCjxkZWZzPg0KPGNsaXBQYXRoIGlkPSJ0Ij4NCjxwYXRoIGQ9Im0zMCwxNWgzMHYxNXp2MTVoLTMwemgtMzB2LTE1enYtMTVoMzB6Ii8+DQo8L2NsaXBQYXRoPg0KPC9kZWZzPg0KPHBhdGggZmlsbD0iIzAwMjQ3ZCIgZD0ibTAsMHYzMGg2MHYtMzB6Ii8+DQo8cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNiIgZD0ibTAsMGw2MCwzMG0wLTMwbC02MCwzMCIvPg0KPHBhdGggc3Ryb2tlPSIjY2YxNDJiIiBzdHJva2Utd2lkdGg9IjQiIGQ9Im0wLDBsNjAsMzBtMC0zMGwtNjAsMzAiIGNsaXAtcGF0aD0idXJsKCN0KSIvPg0KPHBhdGggc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjEwIiBkPSJtMzAsMHYzMG0tMzAtMTVoNjAiLz4NCjxwYXRoIHN0cm9rZT0iI2NmMTQyYiIgc3Ryb2tlLXdpZHRoPSI2IiBkPSJtMzAsMHYzMG0tMzAtMTVoNjAiLz4NCjwvc3ZnPg0K");
+    background-size: 100% 100%;
+    color: transparent !important; }
+
+/* INICIO ESTILOS PARA EL CALENDARIO DE LA ULe */
+.no-calendar {
+    margin: auto;
+    max-width: 1000px; }
+
+/* CALENDARIO DE LA ULe CUANDO EL ANCHO ES INFERIOR A 991px */
+@media (max-width: 991px) {
+    .big-container {
+        display: none; }
+
+    .responsive-calendar {
+        display: none !important; } }
+/* CALENDARIO DE LA ULe CUANDO EL ANCHO ES SUPERIOR A 991px */
+@media (min-width: 991px) {
+    .small-container {
+        display: none; }
+
+    .responsive-menu-calendar {
+        display: none !important; } }
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
+
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.menusup {
+    color: #930000;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px 10px 0 10px !important;
+    margin: 8px 0 8px 0 !important;
+    height: 20px;
+    text-align: right;
+    border-left: 1px solid #000;
+}
+
+.sinbordes {
+    padding: 0 !important;
+}
+
+@media (min-width: 991px) {
+
+    .page-header .page-header-menu {
+        background-color: transparent;
+    }
+
+    .page-logo {
+        top: -51px;
+    }
+}
+
+.mt-card-item.portadainves {
+    border: 1px solid #fafafa;
+}
+
+.mt-card-item.portadageneral {
+    border: 1px solid #fff;
+}
+
+.mt-card-item.portadainves .mt-card-content, .mt-card-item.portadageneral .mt-card-content {
+    text-align: left;
+}
+
+.menusup:hover {
+    color: #000;
+}
+
+.hor-menu.hor-menu-light .navbar-nav > li > a, .hor-menu.hor-menu-light .navbar-nav > li > a > i {
+    color: #fff !important;
+}
+
+.hor-menu.hor-menu-light .navbar-nav > li.active > a {
+    background-color: #00560c !important;
+}
+
+
+.destacadosgris {
+    background-color: #fafafa !important;
+    /* box-shadow: 3px 3px rgba(180, 180, 180, 0.9); */
+}
+
+.page-principal-estudiantes {
+    /*    background: #bfd7ba none repeat scroll 0 0; */
+    background-color: #fff !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.page-principal-noticia {
+    /*    background: #bfd7ba none repeat scroll 0 0; */
+    background: transparent url('../img/fondo_superior.png') top repeat-x;
+    background-color: #fff !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.page-principal-noticia .tiles {
+    margin: 0;
+}
+
+.tiles .tile .tile-body img {
+    float: none;
+    margin: 0 auto;
+}
+div.iconoule {
+    text-align: center;
+}
+
+
+.page-principal-noticia .tiles .tile {
+    width: 20% !important;
+    margin: 0;
+}
+
+.page-principal-noticia .noticiaprincipal {
+    padding: 0;
+}
+
+.page-principal-noticia .noticiaprincipal .carousel-inner .carousel-caption p.seguir {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .page-principal-noticia .noticiaprincipal .carousel-inner .carousel-caption p.seguir {
+        margin-top: 0;
+    }
+}
+
+.carousel-inner .item img {
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption {
+    top:auto;
+    width:auto;
+    right:auto;
+    bottom:0px;
+    left:0px;
+    padding:20px;
+    background:rgba(0,0,0,0.5);
+    text-align:left;
+    max-height:50%;
+    max-width:50%;
+    border-bottom-left-radius: 6px;
+}
+
+.carousel-caption h3 {
+    font-size: 1.4em;
+    margin-top: 0px;
+}
+
+.page-principal-noticia .estudiosprincipal {
+    padding: 0;
+}
+
+
+
+@media (max-width: 991px) {
+    .page-principal-noticia .tiles .tile {
+        height: 20%;
+    }
+
+}
+
+.page-principal-noticia .tiles .tile .name {
+    font-size: 1.4em;
+    position: relative;
+    text-align: center !important;
+}
+
+.menu-superior {
+    /*  display: block; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu-superior .page-header-menu {
+    /*  float: left;
+      display: block; */
+    background: none;
+}
+
+.bg-green-ule {
+    background-color: #00981b;
+    color: #fff;
+}
+
+/*.page-header-menu.menu-superior .hor-menu .navbar-nav > li > a:hover {
+  background: #027713 none repeat scroll 0 0 !important;
+}*/
+
+@media (max-width: 991px) {
+
+
+    .page-header .page-header-menu .hor-menu.coniconos {
+        margin: 0 auto;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a {
+        height: 70px;
+        display: block;
+        padding: 0px !important;
+        background: transparent;
+        border: 2px solid #fff;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a:hover {
+        background: transparent;
+        border: 2px solid #00981b;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a > i {
+        display: block;
+        margin: 0 auto;
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .mn-universidad {
+        float: left;
+        background: transparent url('../img/universidad70x70.png') no-repeat center top;
+    }
+
+    .mn-estudiantes {
+        float: left;
+        background: transparent url('../img/estudiantes70x70.png') no-repeat center top;
+    }
+
+    .mn-investigadores {
+        float: left;
+        background: transparent url('../img/investigadores70x70.png') no-repeat center top;
+    }
+
+    .mn-personal {
+        float: left;
+        background: transparent url('../img/personal70x70.png') no-repeat center top;
+    }
+
+    .mn-actualidad {
+        float: left;
+        background: transparent url('../img/actualidad70x70.png') no-repeat center top;
+    }
+
+    .mn-sede {
+        float: left;
+        background: transparent url('../img/sede70x70.png') no-repeat center top;
+    }
+
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a > span {
+        display: block;
+        float: left;
+        margin-top: 30px;
+        text-align: left;
+        vertical-align: middle;
+        padding: 0 10px;
+        color: #000;
+    }
+
+}
+
+@media (min-width: 991px) {
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav {
+        width: 100%;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos {
+        float: none;
+        margin: 0 auto;
+        display: table;
+        width: 93%;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li {
+        width: 16.6%;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a {
+        padding: 0px !important;
+        background: transparent;
+        border: 2px solid transparent;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a:hover {
+        background: transparent;
+        border: 2px solid #00981b;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a > i {
+        display: block;
+        margin: 0 auto;
+        min-width: 70px;
+        min-height: 70px;
+    }
+
+    .mn-universidad {
+        background: transparent url('../img/universidad70x70.png') no-repeat center top;
+    }
+
+    .mn-estudiantes {
+        background: transparent url('../img/estudiantes70x70.png') no-repeat center top;
+    }
+
+    .mn-investigadores {
+        background: transparent url('../img/investigadores70x70.png') no-repeat center top;
+    }
+
+    .mn-personal {
+        background: transparent url('../img/personal70x70.png') no-repeat center top;
+    }
+
+    .mn-actualidad {
+        background: transparent url('../img/actualidad70x70.png') no-repeat center top;
+    }
+
+    .mn-sede {
+        background: transparent url('../img/sede70x70.png') no-repeat center top;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a > span {
+        display: block;
+        text-align: center;
+        padding: 0;
+        color: #000;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li:hover > a,
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a:active,
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a:focus,
+    .page-header .page-header-menu .hor-menu.coniconos .navbar-nav > li > a:hover {
+        background: none !important;
+        padding: 0 10px;
+        color: #000;
+    }
+
+    .page-header-menu.menu-superior {
+        background: transparent;
+        border: 0;
+    }
+
+}
+
+.page-header .iniciobuscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.page-header .page-header-menu.buscador {
+    background: none;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group .input-group-btn .btn.submit {
+    top: 6px;
+    right: 6px;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group .form-control {
+    width: 92%;
+    border-right: 1px solid #00981b;
+}
+
+.page-header-menu.buscador {
+    border: 0;
+    padding: 0;
+}
+
+.page-header .page-header-menu.buscador .search-form {
+    background-color: #fff;
+    border: 1px solid #00981b;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group {
+    background-color: #fff;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group .form-control {
+    background-color: #fff;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group .input-group-btn .btn.submit {
+    background: transparent;
+    height: 33px;
+    width: 25px;
+    color: #616d7d;
+}
+
+.page-header .page-header-menu.buscador .search-form .input-group .input-group-btn .btn.submit i {
+    top: 0;
+    color: #616d7d !important;
+}
+
+img.portada {
+    max-height: 400px;
+}
+
+#myportada {
+    margin: 0;
+}
+
+
+
+.ver-inline-menu li a:hover {
+    text-decoration: underline;
+}
+
+.ver-inline-menu li li a:hover {
+}
+
+.portlet.box.conoceule {
+    background-color: #00981b;
+    border-width: 1px;
+}
+
+.portlet.box.conoceule > .portlet-title {
+    background-color: #00981b;
+    padding: 0 10px 0 0;
+}
+
+.portlet.box.conoceule > .portlet-title > .caption {
+    font-size: 26px;
+    line-height: 1.1;
+    font-weight: 300;
+    background-color: #00981b;
+    padding: 15px 15px 25px 0;
+}
+
+.portlet.box.conoceule > .portlet-title > .caption > i {
+    font-size: 18px;
+    color: #FFF;
+}
+
+.blog-content-1 .blog-post-content {
+    padding: 0 !important;
+}
+
+.list-news.mt-list-container.ext-1 {
+    border: 0px;
+}
+
+.list-simple {
+    border: 0 !important;
+}
+
+/* INICIO DESTACADOS */
+
+.page-content .page-principal-destacados {
+    padding: 0px;
+}
+
+.page-principal-destacados {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #fff none repeat scroll 0 0;
+}
+
+.pizda > .portlet.light {
+    border-right: 1px solid #000;
+}
+
+.pdcha > .portlet.light {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.pizda {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: -1px;
+}
+
+.pdcha {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: -1px;
+}
+
+/* FIN DESTACADOS */
+
+/* INICIO NOTICAS, AGENDA, CAMPUS */
+
+.page-noticias {
+    /*    background: #054759 none repeat scroll 0 0;  */
+    background: transparent;
+    color: #999;
+    padding-top: 0px;
+}
+
+.page-noticias.page-content {
+    padding-bottom: 0;
+}
+
+/*
+.page-content.page-noticias .container > .row {
+  padding-left: 15px !important;
+  padding-right: 14px !important;
+}
+*/
+
+.bordenoticiaizda {
+    padding-right: 0px;
+    min-height: 600px;
+    background-color: #003f0b;
+    height: 750px;
+}
+
+.bordenoticiaizda a div.mas, .bordenoticiacentro a div.mas {
+    background: rgba(255,255,255,.29);
+    vertical-align: bottom;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.bg-green-ule-campus div.mas {
+    background: rgba(0,63,11,.6);
+    vertical-align: bottom;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.bg-green-ule-campus div.mas span {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.bordenoticiaizda a div.mas > span, .bordenoticiacentro a div.mas > span {
+    font-size: 40px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.bordenoticiacentro a div.mas {
+    margin-left: 0;
+}
+
+.bordenoticiacentro {
+    padding: 0px;
+    padding-right: 0px;
+    min-height: 600px;
+    height: 750px;
+    background-color: #007314;
+}
+
+.bordenoticiadcha {
+    min-height: 600px;
+    height: 750px;
+    background-color: #00981b;
+}
+
+.page-noticias .mt-element-list .list-news.mt-list-container {
+    border: 0px;
+}
+
+.bg-green-ule-actualidad {
+    background-color: #003f0b;
+    color: #fff;
+    border: 1 solid #003f0b;
+}
+
+.bg-green-ule-agenda {
+    background-color: #007314;
+    color: #fff;
+}
+
+.bg-green-ule-campus {
+    background-color: #00981b;
+    color: #fff;
+    border-right: 1px solid #00981b;
+}
+
+/* FIN NOTICAS, AGENDA, CAMPUS */
+
+
+/* INICIO REDES SOCIALES */
+
+.page-redes-sociales {
+    background: transparent;
+    color: #999;
+    padding: 0;
+    margin: 0;
+    min-height: 680px;
+}
+
+.page-redes-sociales .titulo {
+    background-color: #c5c5c5;
+    color: #000;
+    height: 60px;
+    padding: 0;
+}
+
+.page-redes-sociales .titulo span {
+    font-size: 30px;
+    line-height: 55px;
+}
+
+.page-redes-sociales .titulo .socicons {
+    text-align: center;
+    padding-top: 8px;
+}
+.page-redes-sociales .titulo .socicons .socicon-btn {
+    border: 1px solid #404040;
+}
+
+
+.page-redes-sociales .titulo .socicons a {
+    text-align: center;
+    margin: 0 11px;
+}
+
+.page-redes-sociales .rstwitter {
+    min-height: 680px;
+    border-right: solid 1px #838383;
+}
+
+.page-redes-sociales .rstwitter {
+    min-height: 680px;
+    border-right: solid 1px #838383;
+}
+
+.page-redes-sociales .rsinstagram {
+    min-height: 680px;
+    border-right: solid 1px #9f9f9f;
+}
+
+.page-redes-sociales .rsyoutube {
+    min-height: 680px;
+}
+
+/* FIN REDES SOCIALES */
+
+
+/* INICIO PIE */
+/* INICIO MENÃšS PIE DE PÃGINA */
+
+.page-menu {
+    background: transparent url('../img/fondo_pie.png') bottom repeat-x;
+    background-color: #fff !important;
+    margin: 0;
+    padding: 0;
+    min-height: 371px;
+}
+
+.page-enlaces {
+    background-color: #cacaca !important;
+}
+
+.page-menu .page-enlaces .accesosdirectos {
+    padding-right: 0;
+    padding-left: 0;
+    border-right: solid 1px #838383;
+    min-height: 311px;
+}
+
+.page-menu .page-enlaces .portales {
+    padding-right: 0;
+    padding-left: 0;
+    border-right: solid 1px #838383;
+    min-height: 311px;
+}
+
+.page-menu .page-enlaces .serviciosonline {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 311px;
+}
+
+.mt-list-head.cabecerapie {
+    background-color: #950000;
+    height: 60px;
+}
+
+.menupie {
+    list-style: none;
+    font-size: 16px;
+}
+
+.menupie a {
+    color: #555;
+}
+
+.menupie a i {
+    color: #999;
+}
+
+.cabecerapie h4.list-title {
+    padding-right: 0px !important;
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+}
+
+.cabecerapie h4.list-title i {
+    display: inline-block;
+    margin: -12px auto 0 10px;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.pie-portales {
+    float: right;
+    background: transparent url('../img/portales50x50.png') no-repeat center top;
+}
+
+.pie-serviciosonline {
+    float: right;
+    background: transparent url('../img/servicio_en_linea50x50.png') no-repeat center top;
+}
+
+.pie-accesosdirectos {
+    float: right;
+    background: transparent url('../img/acceso_directo50x50.png') no-repeat center top;
+}
+
+
+/* FIN MENÃšS PIE DE PÃGINA */
+
+/* INICIO FOOTER */
+
+.page-footer {
+    background-color: #4a4a4a;
+    min-height: 60px;
+    padding: 0;
+}
+
+.page-footer .redes {
+    padding-top: 3px;
+    border-right: solid 1px #838383;
+    min-height: 60px;
+    margin-left: 5px;
+}
+
+.page-footer .redes p.uppercase {
+    float: left;
+    width: 85px;
+    padding-left: 15px;
+    margin: 20px 0 0 0;
+}
+
+.page-footer .redes .socicons {
+    margin-top: 7px;
+}
+
+.socicon-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+.page-footer .contacto {
+    border-right: solid 1px #838383;
+    min-height: 60px;
+    margin-left: -10px;
+}
+.page-footer .contacto address {
+    padding-top: 10px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.logobn {
+    height: 50px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.page-footer .escudo {
+    padding-top: 4px;
+    padding-left: 20px;
+    min-height: 60px;
+}
+
+.page-footer .escudo p.pescudo {
+    float: left;
+    margin: 0;
+}
+
+.ver-inline-menu.acercade {
+    background-color: transparent;
+    margin-left: 120px;
+}
+
+.ver-inline-menu.acercade li, .ver-inline-menu.acercade li a {
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 1px;
+    border: 0px;
+}
+
+/* FIN FOOTER */
+
+/* FIN PIE */
+
+
+.ver-inline-menu.actualidad li i {
+    background: none !important;
+}
+
+.ver-inline-menu.actualidad li:hover i {
+    background: none !important;
+}
+
+.ver-inline-menu.actualidad li.active i {
+    background: none !important;
+}
+
+.ver-inline-menu.actualidad li i {
+    display: inline-block;
+    font-size: 16px;
+    height: 25px;
+    padding: 3px;
+    text-align: center;
+    width: 25px;
+    margin: 0 3px 0 0;
+}
+
+.ver-inline-menu.actualidad li:hover i,  .ver-inline-menu.actualidad .actualidad li:hover i{
+    color: #027713;
+}
+
+.ver-inline-menu.actualidad .actualidad li i {
+    color: #b9cbd5;
+}
+
+.ver-inline-menu.actualidad .ver-inline-menu.actualidad > li > a {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.mt-element-overlay .mt-overlay-3 .mt-overlay {
+    background: transparent;
+}
+
+.mt-element-overlay .mt-overlay-3:hover .mt-overlay {
+    background-color: rgba(0,63,11,.6);
+}
+
+
+.mt-element-overlay .mt-overlay-3 .mt-overlay h2 {
+    background: rgba(0,0,0,.5);
+    font-size: 100%;
+    text-transform: none;
+    margin-top: 10px;
+    padding: 5px;
+    min-height: 50px;
+}
+
+.portlet.light > .portlet-title {
+    padding: 5px 0;
+    min-height: 10px;
+    border: 0;
+    margin: 0;
+}
+
+.portlet > .portlet-title > .caption {
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.portlet.light .portlet-body {
+    padding-top: 0;
+}
+
+.portlet.light {
+    padding: 0 20px 10px;
+    margin-bottom: 0;
+}
+
+.pdestacados {
+    padding-bottom: 15px;
+}
+
+/* FIN ESTILOS PARA EL CALENDARIO DE LA ULe */
+
+
+/* INICIO ZONA CENTRAL */
+
+/* MENÃš DE MIGAS */
+
+.portlet.ptcentral .breadcrumb {
+    padding: 5px 0 10px 20px;
+    margin: 0 -15px;
+    color: #fff;
+    background-color: #0e5d1d;
+}
+
+.portlet.ptcentral .breadcrumb a {
+    color: #aaa;
+}
+
+/* MENÃš DE MIGAS */
+
+
+.bordespagina {
+    border-left: solid 1px #003f0b;
+}
+
+
+.portlet.ptcentral {
+    margin: 0;
+    padding: 0;
+    /*padding-bottom: 50px;*/
+}
+
+.portlet.ptcentral > .portlet-title > .caption {
+    font-size: 30px;
+    line-height: 65px;
+    margin: 10px 0 0 10px;
+    padding: 0px;
+
+}
+
+.mn-actualidadv {
+    float: left;
+    background: transparent url('../img/actualidad55x55v.png') no-repeat center top;
+}
+
+.mn-estudiantesv {
+    float: left;
+    background: transparent url('../img/estudiantes55x55v.png') no-repeat center top;
+}
+
+.mn-universidadv {
+    float: left;
+    background: transparent url('../img/universidad55x55v.png') no-repeat center top;
+}
+
+.mn-investigadoresv {
+    float: left;
+    background: transparent url('../img/investigadores55x55v.png') no-repeat center top;
+}
+
+.mn-personalv {
+    float: left;
+    background: transparent url('../img/personal55x55v.png') no-repeat center top;
+}
+
+.portlet.ptcentral .mn-actualidadv, .portlet.ptcentral .mn-estudiantesv, .portlet.ptcentral .mn-universidadv, .portlet.ptcentral .mn-investigadoresv, .portlet.ptcentral .mn-personalv {
+    width: 70px;
+    height: 70px;
+}
+
+.portlet.ptcentral > .portlet-title {
+    border-bottom: 1px solid #007314;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.font-verde-titulo {
+    color: #007314 !important;
+}
+
+.portlet.ptcentral > .portlet-body {
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.portlet.menule {
+    background-color: #003f0b;
+    /*margin-right: -1px;*/
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    border-right: 1px solid #003f0b;
+    margin-right: -1px;
+}
+
+.mn-actualidadb {
+    float: left;
+    background: transparent url('../img/actualidad55x55b.png') no-repeat center top;
+}
+
+.mn-estudiantesb {
+    float: left;
+    background: transparent url('../img/estudiantes55x55b.png') no-repeat center top;
+}
+
+.mn-universidadb {
+    float: left;
+    background: transparent url('../img/universidad55x55b.png') no-repeat center top;
+}
+
+.mn-investigadoresb {
+    float: left;
+    background: transparent url('../img/investigadores55x55b.png') no-repeat center top;
+}
+
+.mn-personalb {
+    float: left;
+    background: transparent url('../img/personal55x55b.png') no-repeat center top;
+}
+
+.portlet.menule .mn-actualidadb, .portlet.menule .mn-estudiantesb, .portlet.menule .mn-universidadb, .portlet.menule .mn-investigadoresb, .portlet.menule .mn-personalb {
+    width: 70px;
+    height: 65px;
+}
+
+.portlet.menule > .portlet-title > .caption > i {
+    float: right !important;
+}
+
+.portlet.menule > .portlet-title {
+    border-bottom: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.portlet.menule > .portlet-title > .caption {
+    color: #fff;
+    font-size: 25px;
+    line-height: 65px;
+    margin: 0px 0 0px 10px;
+    padding: 0px;
+}
+
+.portlet.menule ul.nav {
+    list-style: none;
+}
+
+.portlet.menule ul.ver-inline-menu li {
+    background: url('../img/triangulo.png') no-repeat left top;
+    padding: 0px 0px 3px 20px;
+    margin: 0 20px 0 25px;
+}
+
+.portlet.menule ul.ver-inline-menu li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background: none;
+    border-left: 0px;
+    margin: 0 0 5px 3px;
+    line-height: 19px;
+    padding: 0;
+}
+
+.portlet.menule ul.ver-inline-menu li.expandido {
+    background: url('../img/triangulo_exp.png') no-repeat left top;
+}
+
+.portlet.menule ul.ver-inline-menu li.expandido a {
+    font-weight: bold;
+}
+
+.portlet.menule ul.ver-inline-menu ul.submenu {
+    padding-left: 0;
+}
+
+.portlet.menule ul.ver-inline-menu ul.submenu li {
+    background: url('../img/triangulo_submenu.png') no-repeat left top;
+    margin-left: 0;
+}
+
+.portlet.menule ul.ver-inline-menu ul.submenu li a {
+    font-weight: 300;
+    color: #eee;
+    font-size: 17px;
+}
+
+.portlet.ptcentral .normaltexto h2 {
+    font-size: 25px;
+    line-height: 30px;
+    color: #003f0b;
+    border-bottom: 1px solid #003f0b;
+    margin: 10px 0 40px 0;
+}
+
+.portlet.ptcentral .normaltexto h3 {
+    font-size: 22px;
+    color: #003f0b;
+    border-bottom: 1px dotted #003f0b;
+    margin: 40px 0 20px 0;
+}
+
+.portlet.ptcentral .normaltexto h4 {
+    font-size: 19px;
+    color: #888;
+    border-bottom: 1px dotted #ddd;
+    margin: 40px 0 20px 0;
+}
+
+.portlet.ptcentral .normaltexto h5 {
+    font-size: 17px;
+    color: #555;
+    border: 0;
+    margin: 20px 0 20px 0;
+}
+
+.portlet.ptcentral .normaltexto ul {
+    list-style: none;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.portlet.ptcentral .font-green-seagreen {
+    color: #003f0b !important;
+}
+
+/* INICIO ESTUDIANTES */
+
+
+/* fix wordpress styles */
+div.page-content.page-menu {
+    background-color: #dfdfdf !important;
+}
+
+.page-header .page-header-top .menu-toggler {
+    display:block !important;
+}
+
+ul.sub-menu li {
+    list-style-type: none;
+}
+ul.sub-menu {
+    margin-left:-4em;
+    margin-top:10px;
+}
+
+/* active menu item */
+.ver-inline-menu li.active::after {
+    content: '';
+    display: inline-block;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #44ee44;
+    position: absolute;
+    top: 2px;
+    left: 4px;
+}
+
+.ver-inline-menu li.active > a {
+    color: #44ee44 !important;
+}
+
+h1.blog-title {
+    text-align: center;
+    padding-top: 7px;
+    font-size: 2.3em;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+h1.blog-title.small {
+    text-align: center;
+    padding-top: 27px;
+    font-size: 1.4em;
+}
+
+
+a.menu-toggler {
+    margin-top:32px !important;
+}
+
+/* Pagination
+----------------------------------------------- */
+nav.pagination {
+    position: relative;
+    display: block;
+}
+
+.nav-links {
+    position: relative;
+}
+
+.nav-links ul {
+    margin: 0;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin: 0 -1px 25px 0;
+    padding:0;
+    float: left;
+    font-size: 18px;
+}
+
+.nav-links ul li span.current {
+    padding: 10px 12px;
+    background: #337AB7;
+    border: 1px solid #337AB7;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+}
+
+.nav-links ul li a {
+    padding: 10px 12px;
+    background: #FFF;
+    color: #337AB7;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    display: block;
+    line-height: 1;
+}
+
+.nav-links ul li a:hover {
+    background: #eee;
+}
+
+/* Bottom links
+----------------------------------------------- */
+span.cat-links, span.comments-link, span.edit-link {
+    margin-right: 10px;
+}
+
+
+/* Misc
+----------------------------------------------- */
+#reply-title {
+    margin-top: 60px;
+}
+input#submit {
+    font-size: 16px;
+}
+input.search-submit {
+    font-size: 12px;
+}
+div.mt-list-container ul {
+    margin: 0px;
+}
+nav.navigation.pagination {
+    float: right;
+}
+
+/* SIDEBAR WIDGET AREA
+----------------------------------------------- */
+.portlet.menule {
+    color: white;
+}
+
+.portlet.menule section.widget {
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+}
+
+.portlet.menule .widget-title  {
+    color: #fff;
+    font-size: 22px;
+    line-height: 65px;
+    margin: 0px 0 0px 0px;
+    padding: 0px;
+    font-weight: 400;
+}
+.portlet.menule ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.portlet.menule ul li {
+    background: url('../img/triangulo.png') no-repeat left top;
+    padding: 0px 0px 3px 20px;
+    margin: 0 20px 0 5px;
+}
+.portlet.menule ul li.active {
+    background: url('../img/triangulo-active.png') no-repeat left top;
+}
+.portlet.menule ul li.active a {
+    color: #44ee44 !important;
+
+}
+
+.portlet.menule ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background: none;
+    border-left: 0px;
+    margin: 0 0 5px 3px;
+    line-height: 19px;
+    padding: 0;
+}
+
+/**
+ fix calendar in sidebar
+ */
+table#wp-calendar {
+    /*width: 70%;*/
+}
+section.widget_calendar tfoot tr td:nth-child(3) a {
+    float:right;
+}
+section.widget_calendar tbody tr td {
+    color: #aaa;
+}
+section.widget_calendar a {
+    color: #44ee44;;
+    text-decoration: none;
+    font-weight: 800;
+}
+section.widget_calendar a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/**
+ fix link colors
+ */
+div.portlet.ptcentral a {
+    color: #003f0b !important;
+}
+
+div.portlet.ptcentral a:hover, div.portlet.ptcentral a:active {
+    color: #97b98a !important;
+}
+
